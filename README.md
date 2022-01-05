@@ -8,4 +8,4 @@
 
 [![CodeQL](https://github.com/DecSmith42/automatarr/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/DecSmith42/automatarr/actions/workflows/codeql-analysis.yml)
 
-[View Documentation](https://decsmith42.github.io/automatarr/manual/intro.html)
+[View User Guide and Documentation](https://decsmith42.github.io/automatarr/manual/intro.html)
