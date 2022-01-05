@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.WebApi
+  commentId: N:Automatarr.WebApi
+  id: Automatarr.WebApi
+  children:
+  - Automatarr.WebApi.WeatherForecast
+  langs:
+  - csharp
+  - vb
+  name: Automatarr.WebApi
+  nameWithType: Automatarr.WebApi
+  fullName: Automatarr.WebApi
+  type: Namespace
+  assemblies:
+  - Automatarr.WebApi
+references:
+- uid: Automatarr.WebApi.WeatherForecast
+  commentId: T:Automatarr.WebApi.WeatherForecast
+  name: WeatherForecast
+  nameWithType: WeatherForecast
+  fullName: Automatarr.WebApi.WeatherForecast

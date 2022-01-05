@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.WorkerService.Tests.Tests
+  commentId: T:Automatarr.WorkerService.Tests.Tests
+  id: Tests
+  parent: Automatarr.WorkerService.Tests
+  children:
+  - Automatarr.WorkerService.Tests.Tests.SanityTest
+  - Automatarr.WorkerService.Tests.Tests.Setup
+  langs:
+  - csharp
+  - vb
+  name: Tests
+  nameWithType: Tests
+  fullName: Automatarr.WorkerService.Tests.Tests
+  type: Class
+  source:
+    remote:
+      path: src/Automatarr.WorkerService.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: Tests
+    path: ../src/Automatarr.WorkerService.Tests/UnitTest1.cs
+    startLine: 4
+  assemblies:
+  - Automatarr.WorkerService.Tests
+  namespace: Automatarr.WorkerService.Tests
+  syntax:
+    content: 'public class Tests : object'
+    content.vb: >-
+      Public Class Tests
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Automatarr.WorkerService.Tests.Tests.Setup
+  commentId: M:Automatarr.WorkerService.Tests.Tests.Setup
+  id: Setup
+  parent: Automatarr.WorkerService.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: Tests.Setup()
+  fullName: Automatarr.WorkerService.Tests.Tests.Setup()
+  type: Method
+  source:
+    remote:
+      path: src/Automatarr.WorkerService.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: Setup
+    path: ../src/Automatarr.WorkerService.Tests/UnitTest1.cs
+    startLine: 6
+  assemblies:
+  - Automatarr.WorkerService.Tests
+  namespace: Automatarr.WorkerService.Tests
+  syntax:
+    content: public void Setup()
+    content.vb: Public Sub Setup
+  overload: Automatarr.WorkerService.Tests.Tests.Setup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Automatarr.WorkerService.Tests.Tests.SanityTest
+  commentId: M:Automatarr.WorkerService.Tests.Tests.SanityTest
+  id: SanityTest
+  parent: Automatarr.WorkerService.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: SanityTest()
+  nameWithType: Tests.SanityTest()
+  fullName: Automatarr.WorkerService.Tests.Tests.SanityTest()
+  type: Method
+  source:
+    remote:
+      path: src/Automatarr.WorkerService.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: SanityTest
+    path: ../src/Automatarr.WorkerService.Tests/UnitTest1.cs
+    startLine: 10
+  assemblies:
+  - Automatarr.WorkerService.Tests
+  namespace: Automatarr.WorkerService.Tests
+  syntax:
+    content: public void SanityTest()
+    content.vb: Public Sub SanityTest
+  overload: Automatarr.WorkerService.Tests.Tests.SanityTest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Automatarr.WorkerService.Tests
+  commentId: N:Automatarr.WorkerService.Tests
+  name: Automatarr.WorkerService.Tests
+  nameWithType: Automatarr.WorkerService.Tests
+  fullName: Automatarr.WorkerService.Tests
+- uid: Automatarr.WorkerService.Tests.Tests.Setup*
+  commentId: Overload:Automatarr.WorkerService.Tests.Tests.Setup
+  name: Setup
+  nameWithType: Tests.Setup
+  fullName: Automatarr.WorkerService.Tests.Tests.Setup
+- uid: Automatarr.WorkerService.Tests.Tests.SanityTest*
+  commentId: Overload:Automatarr.WorkerService.Tests.Tests.SanityTest
+  name: SanityTest
+  nameWithType: Tests.SanityTest
+  fullName: Automatarr.WorkerService.Tests.Tests.SanityTest

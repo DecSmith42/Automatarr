@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.WebApi.Tests
+  commentId: N:Automatarr.WebApi.Tests
+  id: Automatarr.WebApi.Tests
+  children:
+  - Automatarr.WebApi.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: Automatarr.WebApi.Tests
+  nameWithType: Automatarr.WebApi.Tests
+  fullName: Automatarr.WebApi.Tests
+  type: Namespace
+  assemblies:
+  - Automatarr.WebApi.Tests
+references:
+- uid: Automatarr.WebApi.Tests.Tests
+  commentId: T:Automatarr.WebApi.Tests.Tests
+  name: Tests
+  nameWithType: Tests
+  fullName: Automatarr.WebApi.Tests.Tests

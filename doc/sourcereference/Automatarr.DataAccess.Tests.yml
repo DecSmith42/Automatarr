@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.DataAccess.Tests
+  commentId: N:Automatarr.DataAccess.Tests
+  id: Automatarr.DataAccess.Tests
+  children:
+  - Automatarr.DataAccess.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: Automatarr.DataAccess.Tests
+  nameWithType: Automatarr.DataAccess.Tests
+  fullName: Automatarr.DataAccess.Tests
+  type: Namespace
+  assemblies:
+  - Automatarr.DataAccess.Tests
+references:
+- uid: Automatarr.DataAccess.Tests.Tests
+  commentId: T:Automatarr.DataAccess.Tests.Tests
+  name: Tests
+  nameWithType: Tests
+  fullName: Automatarr.DataAccess.Tests.Tests

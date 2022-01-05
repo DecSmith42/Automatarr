@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.SiteHost.Tests
+  commentId: N:Automatarr.SiteHost.Tests
+  id: Automatarr.SiteHost.Tests
+  children:
+  - Automatarr.SiteHost.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: Automatarr.SiteHost.Tests
+  nameWithType: Automatarr.SiteHost.Tests
+  fullName: Automatarr.SiteHost.Tests
+  type: Namespace
+  assemblies:
+  - Automatarr.SiteHost.Tests
+references:
+- uid: Automatarr.SiteHost.Tests.Tests
+  commentId: T:Automatarr.SiteHost.Tests.Tests
+  name: Tests
+  nameWithType: Tests
+  fullName: Automatarr.SiteHost.Tests.Tests

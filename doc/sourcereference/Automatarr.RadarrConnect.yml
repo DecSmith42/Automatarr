@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.RadarrConnect
+  commentId: N:Automatarr.RadarrConnect
+  id: Automatarr.RadarrConnect
+  children:
+  - Automatarr.RadarrConnect.Class1
+  langs:
+  - csharp
+  - vb
+  name: Automatarr.RadarrConnect
+  nameWithType: Automatarr.RadarrConnect
+  fullName: Automatarr.RadarrConnect
+  type: Namespace
+  assemblies:
+  - Automatarr.RadarrConnect
+references:
+- uid: Automatarr.RadarrConnect.Class1
+  commentId: T:Automatarr.RadarrConnect.Class1
+  name: Class1
+  nameWithType: Class1
+  fullName: Automatarr.RadarrConnect.Class1

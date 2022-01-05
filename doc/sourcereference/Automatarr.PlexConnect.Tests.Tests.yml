@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.PlexConnect.Tests.Tests
+  commentId: T:Automatarr.PlexConnect.Tests.Tests
+  id: Tests
+  parent: Automatarr.PlexConnect.Tests
+  children:
+  - Automatarr.PlexConnect.Tests.Tests.SanityTest
+  - Automatarr.PlexConnect.Tests.Tests.Setup
+  langs:
+  - csharp
+  - vb
+  name: Tests
+  nameWithType: Tests
+  fullName: Automatarr.PlexConnect.Tests.Tests
+  type: Class
+  source:
+    remote:
+      path: src/Automatarr.PlexConnect.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: Tests
+    path: ../src/Automatarr.PlexConnect.Tests/UnitTest1.cs
+    startLine: 4
+  assemblies:
+  - Automatarr.PlexConnect.Tests
+  namespace: Automatarr.PlexConnect.Tests
+  syntax:
+    content: 'public class Tests : object'
+    content.vb: >-
+      Public Class Tests
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Automatarr.PlexConnect.Tests.Tests.Setup
+  commentId: M:Automatarr.PlexConnect.Tests.Tests.Setup
+  id: Setup
+  parent: Automatarr.PlexConnect.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: Tests.Setup()
+  fullName: Automatarr.PlexConnect.Tests.Tests.Setup()
+  type: Method
+  source:
+    remote:
+      path: src/Automatarr.PlexConnect.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: Setup
+    path: ../src/Automatarr.PlexConnect.Tests/UnitTest1.cs
+    startLine: 6
+  assemblies:
+  - Automatarr.PlexConnect.Tests
+  namespace: Automatarr.PlexConnect.Tests
+  syntax:
+    content: public void Setup()
+    content.vb: Public Sub Setup
+  overload: Automatarr.PlexConnect.Tests.Tests.Setup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Automatarr.PlexConnect.Tests.Tests.SanityTest
+  commentId: M:Automatarr.PlexConnect.Tests.Tests.SanityTest
+  id: SanityTest
+  parent: Automatarr.PlexConnect.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: SanityTest()
+  nameWithType: Tests.SanityTest()
+  fullName: Automatarr.PlexConnect.Tests.Tests.SanityTest()
+  type: Method
+  source:
+    remote:
+      path: src/Automatarr.PlexConnect.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: SanityTest
+    path: ../src/Automatarr.PlexConnect.Tests/UnitTest1.cs
+    startLine: 10
+  assemblies:
+  - Automatarr.PlexConnect.Tests
+  namespace: Automatarr.PlexConnect.Tests
+  syntax:
+    content: public void SanityTest()
+    content.vb: Public Sub SanityTest
+  overload: Automatarr.PlexConnect.Tests.Tests.SanityTest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Automatarr.PlexConnect.Tests
+  commentId: N:Automatarr.PlexConnect.Tests
+  name: Automatarr.PlexConnect.Tests
+  nameWithType: Automatarr.PlexConnect.Tests
+  fullName: Automatarr.PlexConnect.Tests
+- uid: Automatarr.PlexConnect.Tests.Tests.Setup*
+  commentId: Overload:Automatarr.PlexConnect.Tests.Tests.Setup
+  name: Setup
+  nameWithType: Tests.Setup
+  fullName: Automatarr.PlexConnect.Tests.Tests.Setup
+- uid: Automatarr.PlexConnect.Tests.Tests.SanityTest*
+  commentId: Overload:Automatarr.PlexConnect.Tests.Tests.SanityTest
+  name: SanityTest
+  nameWithType: Tests.SanityTest
+  fullName: Automatarr.PlexConnect.Tests.Tests.SanityTest
