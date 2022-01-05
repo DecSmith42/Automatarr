@@ -30,13 +30,13 @@ jobs:
         dotnet swagger tofile --output docfx/webapi/webapi.json src/Automatarr.WebApi/bin/Debug/net6.0/Automatarr.WebApi.dll v1
 
     - name: Print dir 1
-      run: cd
+      run: dir
 
     - name: Remove old documentation
-      run: rm -rf docs
+      run: rmdir docs /s /q
 
     - name: Print dir 2
-      run: cd
+      run: dir
 
     - name: DocFx
       uses: nikeee/docfx-action@v1.0.0
@@ -44,7 +44,7 @@ jobs:
         args: docfx/docfx.json
 
     - name: Print dir 3
-      run: cd
+      run: dir
 
     - name: Git Commit and Push w/ Force Push
       # You may pin to the exact commit or the version.
