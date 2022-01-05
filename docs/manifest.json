@@ -1,0 +1,440 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "YlcA5lo9DXvwhfMpTAmLnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/intro.html",
+          "hash": "hUAD0mX4MoZohZfmY2oxVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.DataAccess.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.DataAccess.Class1.html",
+          "hash": "r/fLvoCUE3FolMWDcwk0Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.DataAccess.Tests.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.DataAccess.Tests.Tests.html",
+          "hash": "Y9WapF8w5eqc2vmAeGKYoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.DataAccess.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.DataAccess.Tests.html",
+          "hash": "GScrHxo7RPWfarCm7D5biw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.DataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.DataAccess.html",
+          "hash": "FQYNdd0D1RYAvNB06b5MGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.PlexConnect.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.PlexConnect.Class1.html",
+          "hash": "d/aJ3zgACz3g6N1URhzKzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.PlexConnect.Tests.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.PlexConnect.Tests.Tests.html",
+          "hash": "GD4sg3olMfK9YYgeVbdbNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.PlexConnect.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.PlexConnect.Tests.html",
+          "hash": "l1KJinvB+EZH5SlCkrQnyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.PlexConnect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.PlexConnect.html",
+          "hash": "iYwBP3PAW7G1MM42JKZItA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.RadarrConnect.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.RadarrConnect.Class1.html",
+          "hash": "hRkvHa7vpp1VC4SmuWm2bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.RadarrConnect.Tests.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.RadarrConnect.Tests.Tests.html",
+          "hash": "Xu7JVHM0IrXWIdEKkrSv7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.RadarrConnect.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.RadarrConnect.Tests.html",
+          "hash": "RoGPubnUwsINGG2iZrJoKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.RadarrConnect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.RadarrConnect.html",
+          "hash": "u+vBj/iyHA05kSDgfeE0wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.SiteHost.Data.WeatherForecast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.SiteHost.Data.WeatherForecast.html",
+          "hash": "4iZxVvbZZMISdPScr7yjXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.SiteHost.Data.WeatherForecastService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.SiteHost.Data.WeatherForecastService.html",
+          "hash": "/reQVav3u/6YYaSJChAR6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.SiteHost.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.SiteHost.Data.html",
+          "hash": "p8od1p7xHsgETYRGEOr3Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.SiteHost.Pages.ErrorModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.SiteHost.Pages.ErrorModel.html",
+          "hash": "UNOo5NyzUC3Jc0L+rGqMBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.SiteHost.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.SiteHost.Pages.html",
+          "hash": "se026fNXUbk2SZ5KmDOo3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.SiteHost.Tests.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.SiteHost.Tests.Tests.html",
+          "hash": "IE6kMZs8RxaqI9gAivlldQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.SiteHost.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.SiteHost.Tests.html",
+          "hash": "qeKHXZgvBoReRV0xuf06dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WebApi.Controllers.WeatherForecastController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WebApi.Controllers.WeatherForecastController.html",
+          "hash": "JHWMGyHzNhqODpWbWDi4/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WebApi.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WebApi.Controllers.html",
+          "hash": "did9Ri0ENj9IMdyBrGqtoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WebApi.Tests.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WebApi.Tests.Tests.html",
+          "hash": "lMe3M5r+XuCQepHLUxGVDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WebApi.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WebApi.Tests.html",
+          "hash": "J2pcNdOxdj2dz8H2NB/MUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WebApi.WeatherForecast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WebApi.WeatherForecast.html",
+          "hash": "xFodWZ8sq957j0F0dCdayw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WebApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WebApi.html",
+          "hash": "f1c69goL6FIjv6WwlDdAGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WorkerService.Tests.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WorkerService.Tests.Tests.html",
+          "hash": "eu1aDHl4vhTbNQRct0pHag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WorkerService.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WorkerService.Tests.html",
+          "hash": "3vdU2AHIzyDcmEvvtNGzpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "sourcereference/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/toc.html",
+          "hash": "tz1U77M5c+aMwda86myGwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "wRDquCLXOeCwxbbGh7Fkxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 27,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
