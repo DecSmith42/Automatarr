@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.DataAccess
+  commentId: N:Automatarr.DataAccess
+  id: Automatarr.DataAccess
+  children:
+  - Automatarr.DataAccess.Class1
+  langs:
+  - csharp
+  - vb
+  name: Automatarr.DataAccess
+  nameWithType: Automatarr.DataAccess
+  fullName: Automatarr.DataAccess
+  type: Namespace
+  assemblies:
+  - Automatarr.DataAccess
+references:
+- uid: Automatarr.DataAccess.Class1
+  commentId: T:Automatarr.DataAccess.Class1
+  name: Class1
+  nameWithType: Class1
+  fullName: Automatarr.DataAccess.Class1

@@ -1,0 +1,370 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.SiteHost.Pages.ErrorModel
+  commentId: T:Automatarr.SiteHost.Pages.ErrorModel
+  id: ErrorModel
+  parent: Automatarr.SiteHost.Pages
+  children:
+  - Automatarr.SiteHost.Pages.ErrorModel.#ctor(ILogger{Automatarr.SiteHost.Pages.ErrorModel})
+  - Automatarr.SiteHost.Pages.ErrorModel.OnGet
+  - Automatarr.SiteHost.Pages.ErrorModel.RequestId
+  - Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId
+  langs:
+  - csharp
+  - vb
+  name: ErrorModel
+  nameWithType: ErrorModel
+  fullName: Automatarr.SiteHost.Pages.ErrorModel
+  type: Class
+  source:
+    remote:
+      path: src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: ErrorModel
+    path: ../src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+    startLine: 6
+  assemblies:
+  - Automatarr.SiteHost
+  namespace: Automatarr.SiteHost.Pages
+  syntax:
+    content: 'public class ErrorModel : PageModel'
+    content.vb: >-
+      Public Class ErrorModel
+          Inherits PageModel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Automatarr.SiteHost.Pages.ErrorModel.RequestId
+  commentId: P:Automatarr.SiteHost.Pages.ErrorModel.RequestId
+  id: RequestId
+  parent: Automatarr.SiteHost.Pages.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: RequestId
+  nameWithType: ErrorModel.RequestId
+  fullName: Automatarr.SiteHost.Pages.ErrorModel.RequestId
+  type: Property
+  source:
+    remote:
+      path: src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: RequestId
+    path: ../src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+    startLine: 10
+  assemblies:
+  - Automatarr.SiteHost
+  namespace: Automatarr.SiteHost.Pages
+  syntax:
+    content: public string? RequestId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.String}
+    content.vb: Public Property RequestId As String?
+  overload: Automatarr.SiteHost.Pages.ErrorModel.RequestId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId
+  commentId: P:Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId
+  id: ShowRequestId
+  parent: Automatarr.SiteHost.Pages.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: ShowRequestId
+  nameWithType: ErrorModel.ShowRequestId
+  fullName: Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId
+  type: Property
+  source:
+    remote:
+      path: src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: ShowRequestId
+    path: ../src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+    startLine: 12
+  assemblies:
+  - Automatarr.SiteHost
+  namespace: Automatarr.SiteHost.Pages
+  syntax:
+    content: public bool ShowRequestId { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ShowRequestId As Boolean
+  overload: Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Automatarr.SiteHost.Pages.ErrorModel.#ctor(ILogger{Automatarr.SiteHost.Pages.ErrorModel})
+  commentId: M:Automatarr.SiteHost.Pages.ErrorModel.#ctor(ILogger{Automatarr.SiteHost.Pages.ErrorModel})
+  id: '#ctor(ILogger{Automatarr.SiteHost.Pages.ErrorModel})'
+  parent: Automatarr.SiteHost.Pages.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: ErrorModel(ILogger<ErrorModel>)
+  nameWithType: ErrorModel.ErrorModel(ILogger<ErrorModel>)
+  fullName: Automatarr.SiteHost.Pages.ErrorModel.ErrorModel(ILogger<Automatarr.SiteHost.Pages.ErrorModel>)
+  type: Constructor
+  source:
+    remote:
+      path: src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: .ctor
+    path: ../src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+    startLine: 16
+  assemblies:
+  - Automatarr.SiteHost
+  namespace: Automatarr.SiteHost.Pages
+  syntax:
+    content: public ErrorModel(ILogger<ErrorModel> logger)
+    parameters:
+    - id: logger
+      type: ILogger{Automatarr.SiteHost.Pages.ErrorModel}
+    content.vb: Public Sub New(logger As ILogger(Of ErrorModel))
+  overload: Automatarr.SiteHost.Pages.ErrorModel.#ctor*
+  nameWithType.vb: ErrorModel.ErrorModel(ILogger(Of ErrorModel))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Automatarr.SiteHost.Pages.ErrorModel.ErrorModel(ILogger(Of Automatarr.SiteHost.Pages.ErrorModel))
+  name.vb: ErrorModel(ILogger(Of ErrorModel))
+- uid: Automatarr.SiteHost.Pages.ErrorModel.OnGet
+  commentId: M:Automatarr.SiteHost.Pages.ErrorModel.OnGet
+  id: OnGet
+  parent: Automatarr.SiteHost.Pages.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: OnGet()
+  nameWithType: ErrorModel.OnGet()
+  fullName: Automatarr.SiteHost.Pages.ErrorModel.OnGet()
+  type: Method
+  source:
+    remote:
+      path: src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: OnGet
+    path: ../src/Automatarr.SiteHost/Pages/Error.cshtml.cs
+    startLine: 21
+  assemblies:
+  - Automatarr.SiteHost
+  namespace: Automatarr.SiteHost.Pages
+  syntax:
+    content: public void OnGet()
+    content.vb: Public Sub OnGet
+  overload: Automatarr.SiteHost.Pages.ErrorModel.OnGet*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Automatarr.SiteHost.Pages
+  commentId: N:Automatarr.SiteHost.Pages
+  name: Automatarr.SiteHost.Pages
+  nameWithType: Automatarr.SiteHost.Pages
+  fullName: Automatarr.SiteHost.Pages
+- uid: Automatarr.SiteHost.Pages.ErrorModel.RequestId*
+  commentId: Overload:Automatarr.SiteHost.Pages.ErrorModel.RequestId
+  name: RequestId
+  nameWithType: ErrorModel.RequestId
+  fullName: Automatarr.SiteHost.Pages.ErrorModel.RequestId
+- uid: System.Nullable{System.String}
+  commentId: '!:System.Nullable{System.String}'
+  definition: System.Nullable`1
+  name: Nullable<String>
+  nameWithType: Nullable<String>
+  fullName: System.Nullable<System.String>
+  nameWithType.vb: Nullable(Of String)
+  fullName.vb: System.Nullable(Of System.String)
+  name.vb: Nullable(Of String)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId*
+  commentId: Overload:Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId
+  name: ShowRequestId
+  nameWithType: ErrorModel.ShowRequestId
+  fullName: Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId
+- uid: System.Boolean
+  commentId: '!:System.Boolean'
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Automatarr.SiteHost.Pages.ErrorModel.#ctor*
+  commentId: Overload:Automatarr.SiteHost.Pages.ErrorModel.#ctor
+  name: ErrorModel
+  nameWithType: ErrorModel.ErrorModel
+  fullName: Automatarr.SiteHost.Pages.ErrorModel.ErrorModel
+- uid: ILogger{Automatarr.SiteHost.Pages.ErrorModel}
+  commentId: '!:ILogger{Automatarr.SiteHost.Pages.ErrorModel}'
+  definition: ILogger`1
+  name: ILogger<ErrorModel>
+  nameWithType: ILogger<ErrorModel>
+  fullName: ILogger<Automatarr.SiteHost.Pages.ErrorModel>
+  nameWithType.vb: ILogger(Of ErrorModel)
+  fullName.vb: ILogger(Of Automatarr.SiteHost.Pages.ErrorModel)
+  name.vb: ILogger(Of ErrorModel)
+  spec.csharp:
+  - uid: ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Automatarr.SiteHost.Pages.ErrorModel
+    name: ErrorModel
+    nameWithType: ErrorModel
+    fullName: Automatarr.SiteHost.Pages.ErrorModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Automatarr.SiteHost.Pages.ErrorModel
+    name: ErrorModel
+    nameWithType: ErrorModel
+    fullName: Automatarr.SiteHost.Pages.ErrorModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ILogger`1
+  isExternal: true
+  name: ILogger<>
+  nameWithType: ILogger<>
+  fullName: ILogger<>
+  nameWithType.vb: ILogger(Of )
+  fullName.vb: ILogger(Of )
+  name.vb: ILogger(Of )
+  spec.csharp:
+  - uid: ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Automatarr.SiteHost.Pages.ErrorModel.OnGet*
+  commentId: Overload:Automatarr.SiteHost.Pages.ErrorModel.OnGet
+  name: OnGet
+  nameWithType: ErrorModel.OnGet
+  fullName: Automatarr.SiteHost.Pages.ErrorModel.OnGet

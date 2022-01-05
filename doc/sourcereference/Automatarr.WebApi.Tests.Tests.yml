@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.WebApi.Tests.Tests
+  commentId: T:Automatarr.WebApi.Tests.Tests
+  id: Tests
+  parent: Automatarr.WebApi.Tests
+  children:
+  - Automatarr.WebApi.Tests.Tests.SanityTest
+  - Automatarr.WebApi.Tests.Tests.Setup
+  langs:
+  - csharp
+  - vb
+  name: Tests
+  nameWithType: Tests
+  fullName: Automatarr.WebApi.Tests.Tests
+  type: Class
+  source:
+    remote:
+      path: src/Automatarr.WebApi.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: Tests
+    path: ../src/Automatarr.WebApi.Tests/UnitTest1.cs
+    startLine: 4
+  assemblies:
+  - Automatarr.WebApi.Tests
+  namespace: Automatarr.WebApi.Tests
+  syntax:
+    content: 'public class Tests : object'
+    content.vb: >-
+      Public Class Tests
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Automatarr.WebApi.Tests.Tests.Setup
+  commentId: M:Automatarr.WebApi.Tests.Tests.Setup
+  id: Setup
+  parent: Automatarr.WebApi.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: Tests.Setup()
+  fullName: Automatarr.WebApi.Tests.Tests.Setup()
+  type: Method
+  source:
+    remote:
+      path: src/Automatarr.WebApi.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: Setup
+    path: ../src/Automatarr.WebApi.Tests/UnitTest1.cs
+    startLine: 6
+  assemblies:
+  - Automatarr.WebApi.Tests
+  namespace: Automatarr.WebApi.Tests
+  syntax:
+    content: public void Setup()
+    content.vb: Public Sub Setup
+  overload: Automatarr.WebApi.Tests.Tests.Setup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Automatarr.WebApi.Tests.Tests.SanityTest
+  commentId: M:Automatarr.WebApi.Tests.Tests.SanityTest
+  id: SanityTest
+  parent: Automatarr.WebApi.Tests.Tests
+  langs:
+  - csharp
+  - vb
+  name: SanityTest()
+  nameWithType: Tests.SanityTest()
+  fullName: Automatarr.WebApi.Tests.Tests.SanityTest()
+  type: Method
+  source:
+    remote:
+      path: src/Automatarr.WebApi.Tests/UnitTest1.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: SanityTest
+    path: ../src/Automatarr.WebApi.Tests/UnitTest1.cs
+    startLine: 10
+  assemblies:
+  - Automatarr.WebApi.Tests
+  namespace: Automatarr.WebApi.Tests
+  syntax:
+    content: public void SanityTest()
+    content.vb: Public Sub SanityTest
+  overload: Automatarr.WebApi.Tests.Tests.SanityTest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Automatarr.WebApi.Tests
+  commentId: N:Automatarr.WebApi.Tests
+  name: Automatarr.WebApi.Tests
+  nameWithType: Automatarr.WebApi.Tests
+  fullName: Automatarr.WebApi.Tests
+- uid: Automatarr.WebApi.Tests.Tests.Setup*
+  commentId: Overload:Automatarr.WebApi.Tests.Tests.Setup
+  name: Setup
+  nameWithType: Tests.Setup
+  fullName: Automatarr.WebApi.Tests.Tests.Setup
+- uid: Automatarr.WebApi.Tests.Tests.SanityTest*
+  commentId: Overload:Automatarr.WebApi.Tests.Tests.SanityTest
+  name: SanityTest
+  nameWithType: Tests.SanityTest
+  fullName: Automatarr.WebApi.Tests.Tests.SanityTest

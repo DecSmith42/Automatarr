@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.WebApi.Controllers.WeatherForecastController
+  commentId: T:Automatarr.WebApi.Controllers.WeatherForecastController
+  id: WeatherForecastController
+  parent: Automatarr.WebApi.Controllers
+  children:
+  - Automatarr.WebApi.Controllers.WeatherForecastController.#ctor(ILogger{Automatarr.WebApi.Controllers.WeatherForecastController})
+  - Automatarr.WebApi.Controllers.WeatherForecastController.Get
+  langs:
+  - csharp
+  - vb
+  name: WeatherForecastController
+  nameWithType: WeatherForecastController
+  fullName: Automatarr.WebApi.Controllers.WeatherForecastController
+  type: Class
+  source:
+    remote:
+      path: src/Automatarr.WebApi/Controllers/WeatherForecastController.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: WeatherForecastController
+    path: ../src/Automatarr.WebApi/Controllers/WeatherForecastController.cs
+    startLine: 4
+  assemblies:
+  - Automatarr.WebApi
+  namespace: Automatarr.WebApi.Controllers
+  syntax:
+    content: 'public class WeatherForecastController : ControllerBase'
+    content.vb: >-
+      Public Class WeatherForecastController
+          Inherits ControllerBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Automatarr.WebApi.Controllers.WeatherForecastController.#ctor(ILogger{Automatarr.WebApi.Controllers.WeatherForecastController})
+  commentId: M:Automatarr.WebApi.Controllers.WeatherForecastController.#ctor(ILogger{Automatarr.WebApi.Controllers.WeatherForecastController})
+  id: '#ctor(ILogger{Automatarr.WebApi.Controllers.WeatherForecastController})'
+  parent: Automatarr.WebApi.Controllers.WeatherForecastController
+  langs:
+  - csharp
+  - vb
+  name: WeatherForecastController(ILogger<WeatherForecastController>)
+  nameWithType: WeatherForecastController.WeatherForecastController(ILogger<WeatherForecastController>)
+  fullName: Automatarr.WebApi.Controllers.WeatherForecastController.WeatherForecastController(ILogger<Automatarr.WebApi.Controllers.WeatherForecastController>)
+  type: Constructor
+  source:
+    remote:
+      path: src/Automatarr.WebApi/Controllers/WeatherForecastController.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: .ctor
+    path: ../src/Automatarr.WebApi/Controllers/WeatherForecastController.cs
+    startLine: 15
+  assemblies:
+  - Automatarr.WebApi
+  namespace: Automatarr.WebApi.Controllers
+  syntax:
+    content: public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    parameters:
+    - id: logger
+      type: ILogger{Automatarr.WebApi.Controllers.WeatherForecastController}
+    content.vb: Public Sub New(logger As ILogger(Of WeatherForecastController))
+  overload: Automatarr.WebApi.Controllers.WeatherForecastController.#ctor*
+  nameWithType.vb: WeatherForecastController.WeatherForecastController(ILogger(Of WeatherForecastController))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Automatarr.WebApi.Controllers.WeatherForecastController.WeatherForecastController(ILogger(Of Automatarr.WebApi.Controllers.WeatherForecastController))
+  name.vb: WeatherForecastController(ILogger(Of WeatherForecastController))
+- uid: Automatarr.WebApi.Controllers.WeatherForecastController.Get
+  commentId: M:Automatarr.WebApi.Controllers.WeatherForecastController.Get
+  id: Get
+  parent: Automatarr.WebApi.Controllers.WeatherForecastController
+  langs:
+  - csharp
+  - vb
+  name: Get()
+  nameWithType: WeatherForecastController.Get()
+  fullName: Automatarr.WebApi.Controllers.WeatherForecastController.Get()
+  type: Method
+  source:
+    remote:
+      path: src/Automatarr.WebApi/Controllers/WeatherForecastController.cs
+      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      repo: https://github.com/DecSmith42/automatarr
+    id: Get
+    path: ../src/Automatarr.WebApi/Controllers/WeatherForecastController.cs
+    startLine: 20
+  assemblies:
+  - Automatarr.WebApi
+  namespace: Automatarr.WebApi.Controllers
+  syntax:
+    content: public IEnumerable<WeatherForecast> Get()
+    return:
+      type: IEnumerable{Automatarr.WebApi.WeatherForecast}
+    content.vb: Public Function Get As IEnumerable(Of WeatherForecast)
+  overload: Automatarr.WebApi.Controllers.WeatherForecastController.Get*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Automatarr.WebApi.Controllers
+  commentId: N:Automatarr.WebApi.Controllers
+  name: Automatarr.WebApi.Controllers
+  nameWithType: Automatarr.WebApi.Controllers
+  fullName: Automatarr.WebApi.Controllers
+- uid: Automatarr.WebApi.Controllers.WeatherForecastController.#ctor*
+  commentId: Overload:Automatarr.WebApi.Controllers.WeatherForecastController.#ctor
+  name: WeatherForecastController
+  nameWithType: WeatherForecastController.WeatherForecastController
+  fullName: Automatarr.WebApi.Controllers.WeatherForecastController.WeatherForecastController
+- uid: ILogger{Automatarr.WebApi.Controllers.WeatherForecastController}
+  commentId: '!:ILogger{Automatarr.WebApi.Controllers.WeatherForecastController}'
+  definition: ILogger`1
+  name: ILogger<WeatherForecastController>
+  nameWithType: ILogger<WeatherForecastController>
+  fullName: ILogger<Automatarr.WebApi.Controllers.WeatherForecastController>
+  nameWithType.vb: ILogger(Of WeatherForecastController)
+  fullName.vb: ILogger(Of Automatarr.WebApi.Controllers.WeatherForecastController)
+  name.vb: ILogger(Of WeatherForecastController)
+  spec.csharp:
+  - uid: ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Automatarr.WebApi.Controllers.WeatherForecastController
+    name: WeatherForecastController
+    nameWithType: WeatherForecastController
+    fullName: Automatarr.WebApi.Controllers.WeatherForecastController
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Automatarr.WebApi.Controllers.WeatherForecastController
+    name: WeatherForecastController
+    nameWithType: WeatherForecastController
+    fullName: Automatarr.WebApi.Controllers.WeatherForecastController
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ILogger`1
+  isExternal: true
+  name: ILogger<>
+  nameWithType: ILogger<>
+  fullName: ILogger<>
+  nameWithType.vb: ILogger(Of )
+  fullName.vb: ILogger(Of )
+  name.vb: ILogger(Of )
+  spec.csharp:
+  - uid: ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Automatarr.WebApi.Controllers.WeatherForecastController.Get*
+  commentId: Overload:Automatarr.WebApi.Controllers.WeatherForecastController.Get
+  name: Get
+  nameWithType: WeatherForecastController.Get
+  fullName: Automatarr.WebApi.Controllers.WeatherForecastController.Get
+- uid: IEnumerable{Automatarr.WebApi.WeatherForecast}
+  commentId: '!:IEnumerable{Automatarr.WebApi.WeatherForecast}'
+  definition: IEnumerable`1
+  name: IEnumerable<WeatherForecast>
+  nameWithType: IEnumerable<WeatherForecast>
+  fullName: IEnumerable<Automatarr.WebApi.WeatherForecast>
+  nameWithType.vb: IEnumerable(Of WeatherForecast)
+  fullName.vb: IEnumerable(Of Automatarr.WebApi.WeatherForecast)
+  name.vb: IEnumerable(Of WeatherForecast)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Automatarr.WebApi.WeatherForecast
+    name: WeatherForecast
+    nameWithType: WeatherForecast
+    fullName: Automatarr.WebApi.WeatherForecast
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Automatarr.WebApi.WeatherForecast
+    name: WeatherForecast
+    nameWithType: WeatherForecast
+    fullName: Automatarr.WebApi.WeatherForecast
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  commentId: '!:IEnumerable`1'
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

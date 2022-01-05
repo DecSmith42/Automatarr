@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Automatarr.SiteHost.Pages
+  commentId: N:Automatarr.SiteHost.Pages
+  id: Automatarr.SiteHost.Pages
+  children:
+  - Automatarr.SiteHost.Pages.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: Automatarr.SiteHost.Pages
+  nameWithType: Automatarr.SiteHost.Pages
+  fullName: Automatarr.SiteHost.Pages
+  type: Namespace
+  assemblies:
+  - Automatarr.SiteHost
+references:
+- uid: Automatarr.SiteHost.Pages.ErrorModel
+  commentId: T:Automatarr.SiteHost.Pages.ErrorModel
+  name: ErrorModel
+  nameWithType: ErrorModel
+  fullName: Automatarr.SiteHost.Pages.ErrorModel
