@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Custom
-docfx/obj
-docfx/sourcereference
+docfx/obj/
+docfx/sourcereference/
 
 # User-specific files
 *.rsuser
