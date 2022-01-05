@@ -26,7 +26,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Automatarr.SiteHost">
     <configuration name="Automatarr.PlexConnect" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
