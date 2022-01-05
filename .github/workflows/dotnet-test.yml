@@ -28,8 +28,6 @@ jobs:
     - name: ReportGenerator
       uses: danielpalme/ReportGenerator-GitHub-Action@5.0.2
       with:
-        # The directory where the generated report should be saved.
-        targetdir: .
         # Optional title.
         title: Automatarr Coverage
 
