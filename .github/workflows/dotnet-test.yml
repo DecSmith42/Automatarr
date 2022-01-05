@@ -17,13 +17,13 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
-        
+
     - name: Setup NuGet.exe for use with actions
       uses: NuGet/setup-nuget@v1.0.5
-      
+
     - name: Nuget restore
       run: nuget restore
-      
+
     - name: Install CodeCov
       uses: crazy-max/ghaction-chocolatey@v1.6.0
       with:
@@ -35,7 +35,7 @@ jobs:
       run: dotnet build src/Automatarr.sln --no-restore      
     - name: Test
       run: dotnet test src/Automatarr.sln --no-build --verbosity normal
-      
+
     - name: ReportGenerator
       uses: danielpalme/ReportGenerator-GitHub-Action@5.0.2
       with:
@@ -43,12 +43,12 @@ jobs:
         targetdir: .
         # Optional title.
         title: Automatarr Coverage
-    
+
     - name: DocFx
       uses: nikeee/docfx-action@v1.0.0
       with:
         args: docfx/docfx.json
-        
+
     - name: Codecov
       uses: codecov/codecov-action@v2.1.0
       with:
