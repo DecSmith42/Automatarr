@@ -27,7 +27,7 @@ jobs:
     - name: Generate Web API
       run: |
         dotnet tool restore
-        dotnet swagger tofile --output docfx/webapi/webapi.json src/Automatarr.WebApi/bin/Release/net6.0/Automatarr.WebApi.dll v1
+        dotnet swagger tofile --output docfx/webapi/webapi.json ./src/Automatarr.WebApi/bin/Release/net6.0/Automatarr.WebApi.dll v1
 
     - name: DocFx
       uses: nikeee/docfx-action@v1.0.0
