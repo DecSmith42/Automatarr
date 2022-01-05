@@ -33,7 +33,7 @@ jobs:
       run: dir
 
     - name: Remove old documentation
-      run: rmdir /s /q docs
+      run: Remove-Item docs -Recurse
 
     - name: Print dir 2
       run: dir
