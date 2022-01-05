@@ -33,7 +33,7 @@ jobs:
       run: dir
 
     - name: Remove old documentation
-      run: rmdir docs /s /q
+      run: rmdir /s /q docs
 
     - name: Print dir 2
       run: dir
