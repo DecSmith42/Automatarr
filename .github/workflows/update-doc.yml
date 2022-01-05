@@ -8,7 +8,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -30,13 +30,13 @@ jobs:
         dotnet swagger tofile --output docfx/webapi/webapi.json src/Automatarr.WebApi/bin/Debug/net6.0/Automatarr.WebApi.dll v1
 
     - name: Print dir 1
-      run: ls
+      run: cd
 
     - name: Remove old documentation
       run: rm -rf docs
 
     - name: Print dir 2
-      run: ls
+      run: cd
 
     - name: DocFx
       uses: nikeee/docfx-action@v1.0.0
@@ -44,7 +44,7 @@ jobs:
         args: docfx/docfx.json
 
     - name: Print dir 3
-      run: ls
+      run: cd
 
     - name: Git Commit and Push w/ Force Push
       # You may pin to the exact commit or the version.
