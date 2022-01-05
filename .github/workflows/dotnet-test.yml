@@ -8,7 +8,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
-        
+
     - name: Setup OpenCover
       run: choco install opencover.portable
 
@@ -28,24 +28,7 @@ jobs:
     - name: Test
       run: dotnet test src/Automatarr.sln --no-build --verbosity normal
 
-    - name: Generate coverage
-      run: OpenCover.Console.exe -register:user -target:"C:/Program Files/dotnet/dotnet.exe" -targetargs:test -output:".\coverage.xml" -oldstyle
-
     - name: DocFx
       uses: nikeee/docfx-action@v1.0.0
       with:
         args: docfx/docfx.json
-
-    - name: Codecov
-      uses: codecov/codecov-action@v2.1.0
-      with:
-        # Directory to search for coverage reports.
-        directory: .
-        # Specify whether or not CI build should fail if Codecov runs into an error during upload
-        fail_ci_if_error: true
-        # Don't upload files to Codecov
-        dry_run: true
-        # Path to coverage file to upload
-        file: coverage.xml
-        # Directory in which to execute codecov.sh
-        working-directory: .
