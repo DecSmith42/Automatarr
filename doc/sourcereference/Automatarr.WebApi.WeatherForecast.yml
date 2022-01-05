@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Automatarr.WebApi/WeatherForecast.cs
-      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      branch: main
       repo: https://github.com/DecSmith42/automatarr
     id: WeatherForecast
     path: ../src/Automatarr.WebApi/WeatherForecast.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: src/Automatarr.WebApi/WeatherForecast.cs
-      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      branch: main
       repo: https://github.com/DecSmith42/automatarr
     id: Date
     path: ../src/Automatarr.WebApi/WeatherForecast.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: src/Automatarr.WebApi/WeatherForecast.cs
-      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      branch: main
       repo: https://github.com/DecSmith42/automatarr
     id: TemperatureC
     path: ../src/Automatarr.WebApi/WeatherForecast.cs
@@ -124,7 +124,7 @@ items:
   source:
     remote:
       path: src/Automatarr.WebApi/WeatherForecast.cs
-      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      branch: main
       repo: https://github.com/DecSmith42/automatarr
     id: TemperatureF
     path: ../src/Automatarr.WebApi/WeatherForecast.cs
@@ -159,7 +159,7 @@ items:
   source:
     remote:
       path: src/Automatarr.WebApi/WeatherForecast.cs
-      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      branch: main
       repo: https://github.com/DecSmith42/automatarr
     id: Summary
     path: ../src/Automatarr.WebApi/WeatherForecast.cs

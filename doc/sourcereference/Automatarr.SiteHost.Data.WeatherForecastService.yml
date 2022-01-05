@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Automatarr.SiteHost/Data/WeatherForecastService.cs
-      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      branch: main
       repo: https://github.com/DecSmith42/automatarr
     id: WeatherForecastService
     path: ../src/Automatarr.SiteHost/Data/WeatherForecastService.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: src/Automatarr.SiteHost/Data/WeatherForecastService.cs
-      branch: 63d39cc6027686573eb72624263a1f9afce1ef72
+      branch: main
       repo: https://github.com/DecSmith42/automatarr
     id: GetForecastAsync
     path: ../src/Automatarr.SiteHost/Data/WeatherForecastService.cs
