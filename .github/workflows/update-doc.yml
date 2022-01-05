@@ -29,8 +29,14 @@ jobs:
         dotnet tool restore
         dotnet swagger tofile --output docfx/webapi/webapi.json src/Automatarr.WebApi/bin/Debug/net6.0/Automatarr.WebApi.dll v1
 
+    - name: Print dir 1
+      run: ls
+
     - name: Remove old documentation
       run: rm -rf docs
+
+    - name: Print dir 2
+      run: ls
 
     - name: DocFx
       uses: nikeee/docfx-action@v1.0.0
