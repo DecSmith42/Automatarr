@@ -49,12 +49,8 @@ jobs:
     - name: Print dir 3
       run: dir
 
-    - name: Git Commit and Push w/ Force Push
-      # You may pin to the exact commit or the version.
-      # uses: dciborow/commit@a453a2bd73865875107dd85a471a21369d0a12d8
-      uses: dciborow/commit@0.0.1
-      with:
-        # Specify commit message
-        commit-message: '[Automated] Updated documentation'
-        # Force push
-        force-push: true
+    - name: Commit new documentation
+      run: git commit -m '[Automated] Updated documentation'
+
+    - name: Commit new documentation
+      run: git push -f
