@@ -43,6 +43,9 @@ jobs:
       with:
         args: docfx/docfx.json
 
+    - name: Print dir 3
+      run: ls
+
     - name: Git Commit and Push w/ Force Push
       # You may pin to the exact commit or the version.
       # uses: dciborow/commit@a453a2bd73865875107dd85a471a21369d0a12d8
