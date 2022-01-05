@@ -18,6 +18,17 @@ jobs:
       with:
         dotnet-version: 6.0.x
 
+    - name: Restore dependencies
+      run: dotnet restore src/Automatarr.sln
+
+    - name: Build
+      run: dotnet build src/Automatarr.sln --no-restore
+
+    - name: Generate Web API
+      run: |
+        dotnet tool restore
+        dotnet swagger tofile --output docfx/webapi/webapi.json src/Automatarr.WebApi/bin/Debug/net6.0/Automatarr.WebApi.dll v1
+
     - name: DocFx
       uses: nikeee/docfx-action@v1.0.0
       with:

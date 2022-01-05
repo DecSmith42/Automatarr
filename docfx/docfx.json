@@ -1,9 +1,7 @@
 {
     "metadata": [{
         "src": [{
-            "files": [
-                "**/*.csproj"
-            ],
+            "files": ["**/*.csproj"],
             "src": "../"
         }],
         "dest": "sourcereference",
@@ -18,11 +16,13 @@
                 "manual/**.md",
                 "manual/**/toc.yml",
                 "toc.yml",
-                "*.md"
+                "*.md",
+                "webapi/**.md",
+                "webapi/**.yml"
             ]
         }],
         "resource": [{
-            "files": ["images/**"]
+            "files": ["images/**", "webapi/**"]
         }],
         "overwrite": [{
             "files": ["apidoc/**.md"],
