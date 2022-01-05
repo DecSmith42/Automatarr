@@ -23,17 +23,6 @@ jobs:
       with:
         args: docfx/docfx.json
 
-    - name: Create Branch
-      uses: peterjgrainger/action-create-branch@v2.0.1
-      with:
-        branch: doc-update
-
-    - name: Simple commit
-      uses: zwaldowski/git-commit-action@v1
-      with:
-        # Commit message
-        commit_message: '[Automated] Updated documentation'
-
     - name: Git Commit and Push w/ Force Push
       # You may pin to the exact commit or the version.
       # uses: dciborow/commit@a453a2bd73865875107dd85a471a21369d0a12d8
