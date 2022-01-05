@@ -28,7 +28,7 @@
             "files": ["apidoc/**.md"],
             "exclude": ["obj/**", "_site/**"]
         }],
-        "dest": "_site",
+        "dest": "../docs",
         "globalMetadataFiles": [],
         "fileMetadataFiles": [],
         "template": ["default", "darkfx"],

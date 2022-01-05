@@ -1,1 +1,0 @@
-# Automatarr Source Reference
