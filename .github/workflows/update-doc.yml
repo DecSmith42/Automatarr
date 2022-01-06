@@ -8,7 +8,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-2022
 
     steps:
     - uses: actions/checkout@v2
@@ -18,28 +18,32 @@ jobs:
       with:
         dotnet-version: 6.0.x
 
+    - name: Install DocFX
+      run: choco install docfx -y
+
     - name: Restore dependencies
       run: dotnet restore src/Automatarr.sln
 
     - name: Build
       run: dotnet build src/Automatarr.sln --no-restore
 
-    - name: Generate Web API
+    - name: Generate Web API spec
       run: |
         dotnet tool restore
         dotnet swagger tofile --output docfx/webapi/webapi.json src/Automatarr.WebApi/bin/Debug/net6.0/Automatarr.WebApi.dll v1
 
-    - name: DocFx
-      uses: nikeee/docfx-action@v1.0.0
-      with:
-        args: docfx/docfx.json
+    - name: Remove old documentation
+      run: Remove-Item docs -Recurse
 
-    - name: Git Commit and Push w/ Force Push
-      # You may pin to the exact commit or the version.
-      # uses: dciborow/commit@a453a2bd73865875107dd85a471a21369d0a12d8
-      uses: dciborow/commit@0.0.1
-      with:
-        # Specify commit message
-        commit-message: '[Automated] Updated documentation'
-        # Force push
-        force-push: true
+    - name: Generate new documentation
+      run: docfx docfx/docfx.json
+      env:
+        DOCFX_SOURCE_BRANCH_NAME: $GITHUB_REF_NAME
+
+    - name: Push new documentation
+      run: |
+        git config --global user.email "<41898282+github-actions[bot]@users.noreply.github.com>"
+        git config --global user.name "github-actions[bot]"
+        git add "docs/"
+        git commit -m "[Automated] Updated documentation"
+        git push -f

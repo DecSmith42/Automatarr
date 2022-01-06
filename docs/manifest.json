@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/github/workspace/docfx",
+  "source_base_path": "D:/a/Automatarr/Automatarr/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "MwJnXlrHCWwAgAkmB2uodA=="
+          "hash": "zr/vxHRuowSqkrA+CgnmOPCLACNoTxnE3+56CoCubdI="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "1qYs0UJkwUkMLiCJtahgzQ=="
+          "hash": "TSgVbcrNKTxpVUVEhDTA3jKVSuXOA5GqY+z7f0NZcbU="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.DataAccess.Class1.html",
-          "hash": "Y61OsUyQyqArJB0BjRaBrw=="
+          "hash": "uEdzYMRFrqORIyVOaBGB2SFMSlwdhSxO8AODO81jRkw="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.DataAccess.Tests.Tests.html",
-          "hash": "YC/K6J8gR8eyN0+mg5gK7w=="
+          "hash": "pRZhGHpGCXrbQSiZ3iN+WHJd2bbtYToXuQ2PHPn2eOU="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.DataAccess.Tests.html",
-          "hash": "GScrHxo7RPWfarCm7D5biw=="
+          "hash": "UqGtBTIN72wUegUx4JgJBnUbgiixaYGyn8fHt2OVphg="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.DataAccess.html",
-          "hash": "FQYNdd0D1RYAvNB06b5MGg=="
+          "hash": "Tnj8tCO/0b8dNSIs22yrDLAiIaYg7abs4LH0UUAGH+Y="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.PlexConnect.Class1.html",
-          "hash": "XQDhlmDjDGuEvnY0wO2P8A=="
+          "hash": "BwKDntJB3Y49elXuBrkeY0qPnek5s+l4zNip1byU8Bw="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.PlexConnect.Tests.Tests.html",
-          "hash": "qVHt8/+FA+oLBqri8qyqpw=="
+          "hash": "6kpmnHXqLpE9TucOt32DGxSm50ASxScJTNY1/nsKJ6E="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.PlexConnect.Tests.html",
-          "hash": "l1KJinvB+EZH5SlCkrQnyQ=="
+          "hash": "hUApDdFsI116zzB2krG09EFgSKDRvz2MGS2cMW6TwVk="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.PlexConnect.html",
-          "hash": "iYwBP3PAW7G1MM42JKZItA=="
+          "hash": "Hcz9/Q02I8LZwYNmx2lJhWs9L5K1O896tt/Uw5szDRg="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.RadarrConnect.Class1.html",
-          "hash": "D3I/kXK1ryiLvXyw6TGfKQ=="
+          "hash": "sEcgbqxEyNQadhCOKM02RY02tQ89haMxDLLAlfjYy2Q="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.RadarrConnect.Tests.Tests.html",
-          "hash": "df9y0MLR7ZCMEXj2AFqwwA=="
+          "hash": "wQMXU6pp+la3+JFsTiHazq10KOg/5tUKJ+3DJUzY6GM="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.RadarrConnect.Tests.html",
-          "hash": "RoGPubnUwsINGG2iZrJoKw=="
+          "hash": "QivMn/6HeEFRmF2aKFmleB7cswD4dG8vJgd5/Es2vkk="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.RadarrConnect.html",
-          "hash": "u+vBj/iyHA05kSDgfeE0wA=="
+          "hash": "Lfc/RVgrBsQ1gDl4umUdYY+wRQ5hffFmjw79GudIDwg="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Data.WeatherForecast.html",
-          "hash": "AKHMKZBk0mM8xu3qptWbyg=="
+          "hash": "l+pLN/duwSAjEqDHlOYfGJXKKDSrpguiLfzW55956FM="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Data.WeatherForecastService.html",
-          "hash": "h1XjCj+U1q7AqEm9GEGrJw=="
+          "hash": "3n6/9mxnR83M+jN5MqIrDDHQty+cUHxMv5rSv1oBALE="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Data.html",
-          "hash": "p8od1p7xHsgETYRGEOr3Hg=="
+          "hash": "SNYTE3HpC0SxuvTauvECAeQx+/a5ynLrjfEFJzlp9XM="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Pages.ErrorModel.html",
-          "hash": "8SD1MyGDOby62EFa3aGQDg=="
+          "hash": "U/KvqxNhS8XdFsFbFbwbZj94D5HHa8taghAXxQ6j9S8="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Pages.html",
-          "hash": "se026fNXUbk2SZ5KmDOo3w=="
+          "hash": "tSyfLBYk2w1Mg+uFdKFVpuT29d9sh79RMhinXDqEJVU="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Tests.Tests.html",
-          "hash": "7Lz2hiLabYw0CeiYbkIRHg=="
+          "hash": "l8QHR8P+pQqt3I4T4J9GsDasoN8+PPQnywXT8G9zzpM="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Tests.html",
-          "hash": "qeKHXZgvBoReRV0xuf06dQ=="
+          "hash": "lDYjqoW7uZbmjgzw1zCNOTCvX79gLl6pmHmmXhubp+4="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.Controllers.WeatherForecastController.html",
-          "hash": "YnYpHJ9CT5/ItZjR8jDUJw=="
+          "hash": "iTn3uV2MumbbG9hr8i+WPE63foRMIZAm/WvqOW7XcoM="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.Controllers.html",
-          "hash": "did9Ri0ENj9IMdyBrGqtoA=="
+          "hash": "dbug7/Z5xVD0K9MmyJM/WcKAtZctVpy9o3eIzNbGs38="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.Tests.Tests.html",
-          "hash": "1F8NFfEF5wLfrJf1h7WRBA=="
+          "hash": "uw5YknMDOd+M/AnzwdRKXFYi43auYpGC/nZEvlwPXTk="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.Tests.html",
-          "hash": "J2pcNdOxdj2dz8H2NB/MUg=="
+          "hash": "8cwjrN+T1HwgtQ57iWP4Fc8mkamfq/KTCfeADTScRWk="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.WeatherForecast.html",
-          "hash": "VSFpLiRn33qJU3vwVZkhiw=="
+          "hash": "M8kLfzX2p06aPynSCTeY1+DhhW1nrxt34hDi9t2xka4="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.html",
-          "hash": "f1c69goL6FIjv6WwlDdAGg=="
+          "hash": "4LaNOvKUHTkmTRq4wa6730fZAb+DWvA16CqNCSJ+YUw="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WorkerService.Tests.Tests.html",
-          "hash": "4lfkZxfy88UaYeoH/yRJrA=="
+          "hash": "dqm2AbU0Dia0kagKa1lI8XVU3RSzemjzca/AM6cmm1g="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,31 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WorkerService.Tests.html",
-          "hash": "3vdU2AHIzyDcmEvvtNGzpA=="
+          "hash": "7mJPwZZJDUyGwx+I0YWcjSFPCMySqYCOXGJvChPLGj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WorkerService.Worker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WorkerService.Worker.html",
+          "hash": "2sRraoBA3rcmVUA2YUqioRDzHMdnx034g8FstjqsoIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcereference/Automatarr.WorkerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcereference/Automatarr.WorkerService.html",
+          "hash": "qOvgmExSocvT0xTkM0gBpIGsNx7egVxzgKFEw1M12io="
         }
       },
       "is_incremental": false,
@@ -369,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/toc.html",
-          "hash": "tz1U77M5c+aMwda86myGwg=="
+          "hash": "StwiYTP0KNJrIT/jIrKxluihGOcAqh3VxhuZbWJZdRw="
         }
       },
       "is_incremental": false,
@@ -381,7 +405,64 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "wRDquCLXOeCwxbbGh7Fkxg=="
+          "hash": "wIR20XmOzSv2wUAug2jTs+LGcsblJIh36/gKwQfTKoA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "webapi/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "webapi/toc.html",
+          "hash": "B3alleTdB0qG0+fivsWV8LLUHDi35u8O8x0YlxvmHtY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "webapi/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "webapi/toc.yml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "webapi/webapi.json",
+      "output": {
+        "resource": {
+          "relative_path": "webapi/webapi.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "webapi/webapi.md",
+      "output": {
+        ".html": {
+          "relative_path": "webapi/webapi.html",
+          "hash": "tvI17t4Gq9WmayIdldTOO0RYZhAvqx353rEMFPc9AjA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "webapi/webapi.md",
+      "output": {
+        "resource": {
+          "relative_path": "webapi/webapi.md"
         }
       },
       "is_incremental": false,
@@ -402,13 +483,20 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 3,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 27,
+          "total_file_count": 29,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
