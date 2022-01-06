@@ -54,6 +54,9 @@ jobs:
         git config --global user.email "<41898282+github-actions[bot]@users.noreply.github.com>"
         git config --global user.name "github-actions[bot]"
 
+    - name: Stage new documentation
+      run: git add "docs/"
+
     - name: Commit new documentation
       run: git commit -m "[Automated] Updated documentation"
 
