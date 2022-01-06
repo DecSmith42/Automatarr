@@ -455,23 +455,23 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Resource",
       "source_relative_path": "webapi/webapi.md",
       "output": {
-        ".html": {
-          "relative_path": "webapi/webapi.html",
-          "hash": "U8ogXV70Ea7v9Wo4TC1ITQUhjIRzGzUFHWJBK3RrPs4="
+        "resource": {
+          "relative_path": "webapi/webapi.md"
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Resource",
+      "type": "Conceptual",
       "source_relative_path": "webapi/webapi.md",
       "output": {
-        "resource": {
-          "relative_path": "webapi/webapi.md"
+        ".html": {
+          "relative_path": "webapi/webapi.html",
+          "hash": "U8ogXV70Ea7v9Wo4TC1ITQUhjIRzGzUFHWJBK3RrPs4="
         }
       },
       "is_incremental": false,
