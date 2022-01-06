@@ -482,6 +482,12 @@ references:
   isSpec: "True"
   fullName: Automatarr.WebApi.WeatherForecast.TemperatureF
   nameWithType: WeatherForecast.TemperatureF
+- uid: Automatarr.WorkerService
+  name: Automatarr.WorkerService
+  href: sourcereference/Automatarr.WorkerService.html
+  commentId: N:Automatarr.WorkerService
+  fullName: Automatarr.WorkerService
+  nameWithType: Automatarr.WorkerService
 - uid: Automatarr.WorkerService.Tests
   name: Automatarr.WorkerService.Tests
   href: sourcereference/Automatarr.WorkerService.Tests.html
@@ -520,3 +526,38 @@ references:
   isSpec: "True"
   fullName: Automatarr.WorkerService.Tests.Tests.Setup
   nameWithType: Tests.Setup
+- uid: Automatarr.WorkerService.Worker
+  name: Worker
+  href: sourcereference/Automatarr.WorkerService.Worker.html
+  commentId: T:Automatarr.WorkerService.Worker
+  fullName: Automatarr.WorkerService.Worker
+  nameWithType: Worker
+- uid: Automatarr.WorkerService.Worker.#ctor(ILogger{Automatarr.WorkerService.Worker})
+  name: Worker(ILogger<Worker>)
+  href: sourcereference/Automatarr.WorkerService.Worker.html#Automatarr_WorkerService_Worker__ctor_ILogger_Automatarr_WorkerService_Worker__
+  commentId: M:Automatarr.WorkerService.Worker.#ctor(ILogger{Automatarr.WorkerService.Worker})
+  name.vb: Worker(ILogger(Of Worker))
+  fullName: Automatarr.WorkerService.Worker.Worker(ILogger<Automatarr.WorkerService.Worker>)
+  fullName.vb: Automatarr.WorkerService.Worker.Worker(ILogger(Of Automatarr.WorkerService.Worker))
+  nameWithType: Worker.Worker(ILogger<Worker>)
+  nameWithType.vb: Worker.Worker(ILogger(Of Worker))
+- uid: Automatarr.WorkerService.Worker.#ctor*
+  name: Worker
+  href: sourcereference/Automatarr.WorkerService.Worker.html#Automatarr_WorkerService_Worker__ctor_
+  commentId: Overload:Automatarr.WorkerService.Worker.#ctor
+  isSpec: "True"
+  fullName: Automatarr.WorkerService.Worker.Worker
+  nameWithType: Worker.Worker
+- uid: Automatarr.WorkerService.Worker.ExecuteAsync(CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: sourcereference/Automatarr.WorkerService.Worker.html#Automatarr_WorkerService_Worker_ExecuteAsync_CancellationToken_
+  commentId: M:Automatarr.WorkerService.Worker.ExecuteAsync(CancellationToken)
+  fullName: Automatarr.WorkerService.Worker.ExecuteAsync(CancellationToken)
+  nameWithType: Worker.ExecuteAsync(CancellationToken)
+- uid: Automatarr.WorkerService.Worker.ExecuteAsync*
+  name: ExecuteAsync
+  href: sourcereference/Automatarr.WorkerService.Worker.html#Automatarr_WorkerService_Worker_ExecuteAsync_
+  commentId: Overload:Automatarr.WorkerService.Worker.ExecuteAsync
+  isSpec: "True"
+  fullName: Automatarr.WorkerService.Worker.ExecuteAsync
+  nameWithType: Worker.ExecuteAsync

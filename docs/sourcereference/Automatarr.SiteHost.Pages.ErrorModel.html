@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ErrorModel
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -77,22 +77,406 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ErrorModel</span></div>
+    <div class="level1"><span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel</span></div>
+    <div class="level2"><span class="xref">ErrorModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter</span></div>
+    <div><span class="xref">Microsoft.AspNetCore.Mvc.Filters.IPageFilter</span></div>
+    <div><span class="xref">Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync&lt;TModel&gt;(TModel, System.String, Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync&lt;TModel&gt;(TModel, System.String, System.Linq.Expressions.Expression&lt;System.Func&lt;TModel, System.Object&gt;&gt;[])</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync&lt;TModel&gt;(TModel, System.String, System.Func&lt;Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata, System.Boolean&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync&lt;TModel&gt;(TModel, System.String, Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider, System.Linq.Expressions.Expression&lt;System.Func&lt;TModel, System.Object&gt;&gt;[])</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync&lt;TModel&gt;(TModel, System.String, Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider, System.Func&lt;Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata, System.Boolean&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync(System.Object, System.Type, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync(System.Object, System.Type, System.String, Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider, System.Func&lt;Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata, System.Boolean&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.BadRequest()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.BadRequest(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Challenge()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Challenge(System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Challenge(Microsoft.AspNetCore.Authentication.AuthenticationProperties)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Challenge(Microsoft.AspNetCore.Authentication.AuthenticationProperties, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Content(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Content(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Content(System.String, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Content(System.String, Microsoft.Net.Http.Headers.MediaTypeHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Forbid()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Forbid(System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.Byte[], System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.Byte[], System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.IO.Stream, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.IO.Stream, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.LocalRedirect(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.LocalRedirectPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.LocalRedirectPreserveMethod(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.LocalRedirectPermanentPreserveMethod(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.NotFound()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.NotFound(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Page()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.PhysicalFile(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.PhysicalFile(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Redirect(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectPreserveMethod(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectPermanentPreserveMethod(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPreserveMethod(System.String, System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanentPreserveMethod(System.String, System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePreserveMethod(System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanentPreserveMethod(System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePreserveMethod(System.String, System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanentPreserveMethod(System.String, System.String, System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignIn(System.Security.Claims.ClaimsPrincipal, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignIn(System.Security.Claims.ClaimsPrincipal, Microsoft.AspNetCore.Authentication.AuthenticationProperties, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignOut(System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignOut(Microsoft.AspNetCore.Authentication.AuthenticationProperties, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.StatusCode(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.StatusCode(System.Int32, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Unauthorized()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Partial(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Partial(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.Type, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerSelected(Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecuting(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecuted(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerSelectionAsync(Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext, Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutionDelegate)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.PageContext</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.HttpContext</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Request</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Response</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RouteData</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ModelState</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.User</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TempData</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Url</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.MetadataProvider</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewData</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Automatarr.SiteHost.Pages.html">Automatarr.SiteHost.Pages</a></h6>
   <h6><strong>Assembly</strong>: Automatarr.SiteHost.dll</h6>
   <h5 id="Automatarr_SiteHost_Pages_ErrorModel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ErrorModel : PageModel</code></pre>
+    <pre><code class="lang-csharp hljs">[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+[IgnoreAntiforgeryToken]
+public class ErrorModel : PageModel, IAsyncPageFilter, IPageFilter, IFilterMetadata</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/DecSmith42/Automatarr/new/c886d0a0de1005d3466e7add03647ca051690af2/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel__ctor_ILogger_Automatarr_SiteHost_Pages_ErrorModel__.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel.%23ctor(ILogger%7BAutomatarr.SiteHost.Pages.ErrorModel%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/DecSmith42/Automatarr/new/$GITHUB_REF_NAME/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel__ctor_ILogger_Automatarr_SiteHost_Pages_ErrorModel__.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel.%23ctor(ILogger%7BAutomatarr.SiteHost.Pages.ErrorModel%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/DecSmith42/Automatarr/blob/c886d0a0de1005d3466e7add03647ca051690af2/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L17">View Source</a>
+    <a href="https://github.com/DecSmith42/Automatarr/blob/$GITHUB_REF_NAME/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L17">View Source</a>
   </span>
   <a id="Automatarr_SiteHost_Pages_ErrorModel__ctor_" data-uid="Automatarr.SiteHost.Pages.ErrorModel.#ctor*"></a>
   <h4 id="Automatarr_SiteHost_Pages_ErrorModel__ctor_ILogger_Automatarr_SiteHost_Pages_ErrorModel__" data-uid="Automatarr.SiteHost.Pages.ErrorModel.#ctor(ILogger{Automatarr.SiteHost.Pages.ErrorModel})">ErrorModel(ILogger&lt;ErrorModel&gt;)</h4>
@@ -123,10 +507,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/DecSmith42/Automatarr/new/c886d0a0de1005d3466e7add03647ca051690af2/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel_RequestId.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel.RequestId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/DecSmith42/Automatarr/new/$GITHUB_REF_NAME/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel_RequestId.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel.RequestId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/DecSmith42/Automatarr/blob/c886d0a0de1005d3466e7add03647ca051690af2/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L11">View Source</a>
+    <a href="https://github.com/DecSmith42/Automatarr/blob/$GITHUB_REF_NAME/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L11">View Source</a>
   </span>
   <a id="Automatarr_SiteHost_Pages_ErrorModel_RequestId_" data-uid="Automatarr.SiteHost.Pages.ErrorModel.RequestId*"></a>
   <h4 id="Automatarr_SiteHost_Pages_ErrorModel_RequestId" data-uid="Automatarr.SiteHost.Pages.ErrorModel.RequestId">RequestId</h4>
@@ -134,7 +518,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? RequestId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string RequestId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,17 +530,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/DecSmith42/Automatarr/new/c886d0a0de1005d3466e7add03647ca051690af2/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel_ShowRequestId.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/DecSmith42/Automatarr/new/$GITHUB_REF_NAME/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel_ShowRequestId.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/DecSmith42/Automatarr/blob/c886d0a0de1005d3466e7add03647ca051690af2/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L13">View Source</a>
+    <a href="https://github.com/DecSmith42/Automatarr/blob/$GITHUB_REF_NAME/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L13">View Source</a>
   </span>
   <a id="Automatarr_SiteHost_Pages_ErrorModel_ShowRequestId_" data-uid="Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId*"></a>
   <h4 id="Automatarr_SiteHost_Pages_ErrorModel_ShowRequestId" data-uid="Automatarr.SiteHost.Pages.ErrorModel.ShowRequestId">ShowRequestId</h4>
@@ -185,10 +569,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/DecSmith42/Automatarr/new/c886d0a0de1005d3466e7add03647ca051690af2/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel_OnGet.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel.OnGet%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/DecSmith42/Automatarr/new/$GITHUB_REF_NAME/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel_OnGet.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel.OnGet%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/DecSmith42/Automatarr/blob/c886d0a0de1005d3466e7add03647ca051690af2/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L22">View Source</a>
+    <a href="https://github.com/DecSmith42/Automatarr/blob/$GITHUB_REF_NAME/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L22">View Source</a>
   </span>
   <a id="Automatarr_SiteHost_Pages_ErrorModel_OnGet_" data-uid="Automatarr.SiteHost.Pages.ErrorModel.OnGet*"></a>
   <h4 id="Automatarr_SiteHost_Pages_ErrorModel_OnGet" data-uid="Automatarr.SiteHost.Pages.ErrorModel.OnGet">OnGet()</h4>
@@ -198,6 +582,16 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnGet()</code></pre>
   </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter</span>
+  </div>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IPageFilter</span>
+  </div>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata</span>
+  </div>
 </article>
           </div>
           
@@ -206,10 +600,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DecSmith42/Automatarr/new/c886d0a0de1005d3466e7add03647ca051690af2/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DecSmith42/Automatarr/new/$GITHUB_REF_NAME/apiSpec/new?filename=Automatarr_SiteHost_Pages_ErrorModel.md&amp;value=---%0Auid%3A%20Automatarr.SiteHost.Pages.ErrorModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/DecSmith42/Automatarr/blob/c886d0a0de1005d3466e7add03647ca051690af2/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/DecSmith42/Automatarr/blob/$GITHUB_REF_NAME/src/Automatarr.SiteHost/Pages/Error.cshtml.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
