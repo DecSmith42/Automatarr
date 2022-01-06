@@ -49,8 +49,13 @@ jobs:
     - name: Print dir 3
       run: dir
 
-    - name: Commit new documentation
-      run: git commit -m '[Automated] Updated documentation' --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+    - name: Set author details
+      run: |
+        git config --global user.email "<41898282+github-actions[bot]@users.noreply.github.com>"
+        git config --global user.name "github-actions[bot]"
 
     - name: Commit new documentation
+      run: git commit -m "[Automated] Updated documentation"
+
+    - name: Push new documentation
       run: git push -f
