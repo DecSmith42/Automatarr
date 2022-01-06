@@ -408,7 +408,21 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "E57wefhzNg5A8BId4tUWrF+3q3RxFbJ+QZJYfgUinLk="
+          "hash": "XfrIMVjMJFzXBhN02hPnTqd6kxEgfLm1qbv53o2ue1I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Resource",
+      "source_relative_path": "webapi/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "webapi/toc.yml"
         }
       },
       "is_incremental": false,
@@ -430,20 +444,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Resource",
-      "source_relative_path": "webapi/toc.yml",
-      "output": {
-        "resource": {
-          "relative_path": "webapi/toc.yml"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Resource",
       "source_relative_path": "webapi/webapi.json",
       "output": {
@@ -455,23 +455,23 @@
       "version": ""
     },
     {
-      "type": "Resource",
+      "type": "Conceptual",
       "source_relative_path": "webapi/webapi.md",
       "output": {
-        "resource": {
-          "relative_path": "webapi/webapi.md"
+        ".html": {
+          "relative_path": "webapi/webapi.html",
+          "hash": "jdryO3Z2aMZuPl/omwKa3bE5gycxngDg6AfGHuroKMY="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Resource",
       "source_relative_path": "webapi/webapi.md",
       "output": {
-        ".html": {
-          "relative_path": "webapi/webapi.html",
-          "hash": "tvI17t4Gq9WmayIdldTOO0RYZhAvqx353rEMFPc9AjA="
+        "resource": {
+          "relative_path": "webapi/webapi.md"
         }
       },
       "is_incremental": false,
