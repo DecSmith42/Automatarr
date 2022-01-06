@@ -21,7 +21,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore src/Automatarr.sln
     - name: Build
-      run: dotnet build src/Automatarr.sln --no-restore
+      run: dotnet build -c Release src/Automatarr.sln --no-restore
     - name: Test
       run: dotnet test src/Automatarr.sln --no-build --verbosity normal
 
