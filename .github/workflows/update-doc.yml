@@ -35,7 +35,7 @@ jobs:
     - name: Generate new documentation
       run: docfx docfx/docfx.json
       env:
-        DOCFX_SOURCE_BRANCH_NAME: $env:GITHUB_REF_NAME
+        DOCFX_SOURCE_BRANCH_NAME: main
 
     - name: Deploy Documentation
       uses: s0/git-publish-subdir-action@develop
