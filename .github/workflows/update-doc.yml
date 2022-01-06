@@ -50,7 +50,7 @@ jobs:
       run: dir
 
     - name: Commit new documentation
-      run: git commit -m '[Automated] Updated documentation'
+      run: git commit -m '[Automated] Updated documentation' --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
 
     - name: Commit new documentation
       run: git push -f
