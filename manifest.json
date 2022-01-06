@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "509Gxnd58ATLmKWerCyWQWYY9tSvz8WKl2R9fW7sSFQ="
+          "hash": "r3i3/vONnZp+FqzNrhJNmttCYOvr/KWbYQEQ7WVDQVU="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "ug6h+B8b6Qsx86GfyX4JXHFRia1oOnvZTtd9kgVtg1s="
+          "hash": "jtlmW43TFj+sBJrWerd9WDZ8tVkZ87l0on9JsiwAtzM="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.DataAccess.Class1.html",
-          "hash": "E81crOCPWopnMgyWSns5C3tjK0UpgMFJM21luvbmWiI="
+          "hash": "d2CjS95YMFw8plPHrGpQHsKOgwkcVW8IbF2eBcrob9A="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.DataAccess.Tests.Tests.html",
-          "hash": "rHbwuWTnHbqa7BnC2TRbYQsEnAIQD77smbgUhqNLv8E="
+          "hash": "j699zvrE8WdK6I6w6Idw3qZo6hR3OU8Y1PBSFQdZCxM="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.PlexConnect.Class1.html",
-          "hash": "N6ibeiP5HLMXLI4TTwIspj6X5j+WOM1z6CesDJu84OU="
+          "hash": "zncYDTY1dWvIEmmN8b7LLOWiUzlV9cXvSnw4HFs3wdQ="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.PlexConnect.Tests.Tests.html",
-          "hash": "MCYld+A3CHZ0zvnr4QzQMm0HZgiWxQQJ2GFNGK0f8S0="
+          "hash": "Vnz8wU+Fu6VhU40YkwfGo1C0gI3F3LMFKcdAQFYeYQA="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.RadarrConnect.Class1.html",
-          "hash": "bL59ZaXY3l5SK/rBaB8zXNqQEbG4gc21cK0R1/Gf+rk="
+          "hash": "lb9B1Ex2isW25IsdVbEDOFu08uBUsL6sidm/HOWbIi4="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.RadarrConnect.Tests.Tests.html",
-          "hash": "yJcItYwUcFRJzXpBqpCVO2j3RJYnT2BpX7wo55bcES4="
+          "hash": "y8/0Ft63k8i22/fSLSZtn0cPtfnArtqMHAH7NQD2OFE="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Data.WeatherForecast.html",
-          "hash": "iYuwOB2DD8i02SBnjFiPATUhNBS2yB5JgYagIAWb/F8="
+          "hash": "dE3AjFKO+vxq6l2pmKSjG19QKVJLNjff65CdG215Tj8="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Data.WeatherForecastService.html",
-          "hash": "y0mTOEeHdQFhHvsFpS3jYhxYNXOfqSSjYiaInxI1vnI="
+          "hash": "1X3BWpHiJpPS6Jtjy3dnH02JIRH9X4gkY9vxg6qrxjc="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Pages.ErrorModel.html",
-          "hash": "Koj4wDHGbaeyxGFGWvLV0Zo1muktKR3FW7RRFZqI0Yk="
+          "hash": "9fmyNsD+5g34sw6wIKj8mu4AW1HLFm/3Ut4GhhSuJPI="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.SiteHost.Tests.Tests.html",
-          "hash": "XN/675e6Yjs5PUzDLDu3qQg5k+8cN+PjoYA0t52z9Zo="
+          "hash": "3MtHODJ5BkM/dqUfcZoTbLLApW0mOdOs5+Fw8LhkxjE="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.Controllers.WeatherForecastController.html",
-          "hash": "fPdbJ2thC8nwcHzyFOE+1perAHDwhSFucpDoYxrL44o="
+          "hash": "Yc6o7isCeIq9CmHGUVuIPOrUsDr7ufATWsKTHJOTIHA="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.Tests.Tests.html",
-          "hash": "CnkbcWLBSeRiH/hUPkrtqCu7Mm4h865TsYdTxPJnpyM="
+          "hash": "B9IXgc2PSUpYhfJzV2bLlL3HDmJyR8MQvxBzpZS2LXQ="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WebApi.WeatherForecast.html",
-          "hash": "dwQQGtu2juPrUm0YX/4i2IwD8oRItcir3+YgjQBle+I="
+          "hash": "+9JnWedfWDCgFbWsRt5IOjX+UopIb6jkYRvQCfT22J0="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WorkerService.Tests.Tests.html",
-          "hash": "PzqOFrsOla98E1F9WgYzkAFo+VbgQVit8oeD6vxC+rE="
+          "hash": "ptRtfchcBk70DclGh429SPxUaRLVteyLDkaDxQTRugc="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "sourcereference/Automatarr.WorkerService.Worker.html",
-          "hash": "N63HRCNSRPpNy4o1htqTyFPkO6qpgXwpsyF/+8PTmrU="
+          "hash": "lJj/QpMr0vbUiM4E7g6GavnQpNpYQC3ztE+AF5l038U="
         }
       },
       "is_incremental": false,
@@ -460,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "webapi/webapi.html",
-          "hash": "CMQrmrlu5tENXBlVfsdoUqxnxuhBJo0b/1GYknGNyYA="
+          "hash": "U8ogXV70Ea7v9Wo4TC1ITQUhjIRzGzUFHWJBK3RrPs4="
         }
       },
       "is_incremental": false,
